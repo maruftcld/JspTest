@@ -1,0 +1,1 @@
+<h1>Footer of the page</h1>
