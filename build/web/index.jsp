@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" isELIgnored="false"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,7 +10,6 @@
         <%@include file="header.jsp" %>
         <h1>Hello World!</h1>
     </body>
-
     <%-- This is  a JSP Comment --%>
 
 
@@ -18,7 +18,7 @@
 
 
     <% String ss = "new";
-        if (s.equals(ss)) { %>
+    if (s.equals(ss)) { %>
     <h1>I am inside the if block</h1>
     <%} else {%>
     <h1>I am inside the else block</h1>
@@ -53,5 +53,5 @@
     ${person['name']}
     ${2 eq 2}
  
-     
+  
 </html>
